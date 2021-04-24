@@ -11,7 +11,6 @@ function obtenerMayor(x, y) {
     return y;
 }
 
-
 function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
   //Si tiene 18 años ó más, devolver --> "Allowed"
@@ -22,7 +21,6 @@ function mayoriaDeEdad(edad) {
     else {
       return "Not allowed";
     }
-    
 }
   
 function conection(status) {
@@ -169,7 +167,6 @@ function esVerdadero(valor){
   return "Soy falso"
 }
 
-
 function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
@@ -188,7 +185,6 @@ function tieneTresDigitos(numero){
       return true 
  }
  return false
-  
 }
 
 function doWhile(numero) {
@@ -204,7 +200,6 @@ function doWhile(numero) {
   while(i < 8);
   return a;
 }
-
 
 // No modificar nada debajo de esta línea
 // --------------------------------
